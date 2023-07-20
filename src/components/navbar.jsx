@@ -1,15 +1,18 @@
 import { Link } from "react-router-dom";
+import logo from '../assets/sizzle svg.svg';
 
 function NavBar() {
     return (
-        <nav className="w-full h-[150px] bg-[#bdbdbd]">
+        <nav className="w-full bg-[#bdbdbd]">
             <Link to="/">
-                <h1 className="text-center text-[4rem] m-auto logo">
-                Sizzle
-                </h1>
+                <div className="w-full h-[300px] bg-[#fff] m-auto">
+                    <img
+                        className="h-[250px] m-auto object-fit"
+                        src={logo}
+                        alt="sizzle logo"
+                    />
+                </div>
             </Link>
-
-            <p className="text-center text-[1.5rem] text-black m-auto">the best place for bbqs</p>
         </nav>
     )
 }

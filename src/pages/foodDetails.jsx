@@ -7,7 +7,7 @@ function FoodDetails() {
     let { meal_id } = useParams();
     const meal = data.find(item => item.id === meal_id)
     return (
-        <section className="relative w-[60%] h-auto m-auto mb-[40px] p-[40px] flex flex-col md:flex-row justify-center items-center gap-[40px] bg-[#efefef]">  
+        <section className="relative w-[60%] h-auto m-auto my-[40px] p-[40px] flex flex-col md:flex-row justify-center items-center gap-[40px] bg-[#efefef]">  
             <div className="w-[300px] md:w-[400px] h-[300px] md:h-[400px] ">
                 <img
                     className="w-full h-full object-cover"
