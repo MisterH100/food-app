@@ -39,7 +39,7 @@ function FoodDetails() {
                     </button>
                 </div>
             </div>
-            <Link to="/" className="absolute top-[90%] left-[90%] text-black">Back</Link>
+            <Link to="/" className="absolute top-[96%] left-[50%] md:top-[90%] md:left-[80%] text-black">Back</Link>
         </section>
     )
 }

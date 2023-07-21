@@ -1,5 +1,5 @@
 import { useState} from 'react'
-import Meal from './meals'
+import Meals from './meals'
 import { data } from '../data/db'
 
 
@@ -47,7 +47,7 @@ function Context(){
             </form>
             
             <div className="flex flex-wrap justify-center gap-[40px] w-full h-full px-[40px] py-[20px] mb-[40px]">
-                <Meal data={searchName(data)} />
+                <Meals data={searchName(data)} />
             </div>
         </section>
     )

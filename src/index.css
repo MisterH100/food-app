@@ -88,12 +88,20 @@ body {
   transition: all 0.5s ease-in-out;
 }
 
+.add-to-cart, .contact-button{
+  padding-top: 10px;
+}
+
 .add-to-cart:hover, .contact-button:hover{
   padding-top: 0;
 }
 
+.add-to-cart img, .contact-button img{
+  transform: translateY(6px);
+}
+
 .add-to-cart:hover img, .contact-button:hover img{
-  margin-top: -2px;
+  transform: translateY(-4px);
 }
 
 @keyframes pulse{
